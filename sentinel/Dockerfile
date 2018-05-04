@@ -1,4 +1,4 @@
-FROM redis:3
+FROM redis
 
 
 ADD sentinel.conf /etc/redis/sentinel.conf
